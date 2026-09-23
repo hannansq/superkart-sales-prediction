@@ -6,7 +6,7 @@ import requests
 # Base URL of the Flask backend.
 # "backend" is the container name on the shared Docker network -
 # Docker's internal DNS resolves it to the right container automatically.
-BACKEND_URL = "http://backend:7860"
+BACKEND_URL = "http://localhost:7860"
 
 # Page title
 st.title("SuperKart Sales Prediction")
